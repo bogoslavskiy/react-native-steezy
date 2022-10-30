@@ -1,0 +1,22 @@
+{
+  "include": ["src"],
+  "exclude": ["example"],
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["esnext"],
+    "module": "esnext",
+    "outDir": "dist/",
+    "importHelpers": true,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "esnext"
+  }
+}
