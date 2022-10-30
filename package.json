@@ -1,7 +1,7 @@
 {
   "name": "@bogoslavskiy/react-native-steezy",
   "author": "Artem Bogoslavskiy",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "description": "React Native stylesheet with dynamic vars and media",
   "repository": {
     "type": "git",
