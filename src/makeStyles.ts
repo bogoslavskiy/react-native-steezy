@@ -16,7 +16,7 @@ export function makeStyles<TStyles, TVariablesHook, TMedia>(
     
     // Prepare and cleaning styles 
     staticStyles[styleName] = Object.keys(styles).reduce<StaticStyles>((acc, prop) => {
-      if (!styles[prop])  {
+      if (styles[prop] == null)  {
         return acc;
       }
       
